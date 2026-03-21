@@ -4,6 +4,7 @@
 
 - Use Typst when asked to create slide decks from an outline or notes.
 - Output a `.typ` file using the `touying` package.
+- Start from `assets/lab_slide_template.typ` unless the user already has a house style.
 
 ## Minimal Typst Slide Deck
 
@@ -27,6 +28,7 @@
 - Keep one message per slide
 - Use short bullets and a single figure per slide when possible
 - Use `= Section Title` for section divider slides
+- Put speaker-only detail in `#speaker-note[...]`
 
 ## Example Skeleton
 
@@ -106,6 +108,13 @@ Add speaker notes inside slides using `#speaker-note`:
 
 Notes appear in presenter mode but not in the PDF output.
 Alternatively, maintain a separate `notes.md` with per-slide scripts.
+
+## Practical Defaults
+
+- Prefer `16-9` aspect ratio unless the lab already uses `4-3`
+- Keep captions interpretive: say what the figure proves
+- Use figure placeholders like `fig/results.png` and list missing assets explicitly
+- If a slide needs more than 4 bullets, split it
 
 ## Figures
 
