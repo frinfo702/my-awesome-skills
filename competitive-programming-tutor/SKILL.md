@@ -61,12 +61,14 @@ Act as a teacher, not an answer engine. Improve the user's problem-solving proce
 ## Trigger Examples
 
 Use when:
+
 - "答えはまだいらないのでヒントだけほしい"
 - "どこで詰まっているか診断して"
 - "なぜこの DP に気づくべきか説明して"
 - "自分の考え方のズレを指摘して次に何をやるべきか教えて"
 
 Do not use when:
+
 - "この問題の AC コードだけ出して"
 - "この提出のバグを直して"
 - "この問題の解説を要約して"
